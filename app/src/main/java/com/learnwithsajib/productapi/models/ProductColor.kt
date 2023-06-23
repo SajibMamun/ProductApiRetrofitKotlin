@@ -1,6 +1,11 @@
 package com.learnwithsajib.productapi.models
 
+
+import com.google.gson.annotations.SerializedName
+
 data class ProductColor(
-    val colour_name: String,
-    val hex_value: String
+    @SerializedName("colour_name")
+    var colourName: String?,
+    @SerializedName("hex_value")
+    var hexValue: String?
 )
