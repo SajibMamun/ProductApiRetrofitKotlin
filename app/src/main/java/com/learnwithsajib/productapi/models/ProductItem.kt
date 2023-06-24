@@ -2,7 +2,7 @@ package com.learnwithsajib.productapi.models
 
 
 import com.google.gson.annotations.SerializedName
-
+///////////////
 data class ProductItem(
     @SerializedName("api_featured_image")
     var apiFeaturedImage: String?,
