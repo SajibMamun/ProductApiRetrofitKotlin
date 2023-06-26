@@ -10,6 +10,6 @@ object RetrofitClient {
         .baseUrl("https://makeup-api.herokuapp.com/api/v1/")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-
+// retrofit service clinet
     val service= retrofit.create(ServiceClients::class.java)
 }
